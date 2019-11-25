@@ -249,8 +249,12 @@ button {
 .myLogo{
   border: 2px solid black;
   height: 100%;
-  width: 40px;
+  width: 70px;
   margin-left: 2%;
   margin-right: 5px;
   float: left;
+}
+
+.meMoji{
+  
 }

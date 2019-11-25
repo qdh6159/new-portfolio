@@ -47,7 +47,28 @@ code {
   background: #ffebcd3d;
   overflow-y: scroll;
 }
+.cardTable2 {
+  /* border: 1px solid black; */
 
+  height: 96%;
+  width: 65%;
+  top: 50px;
+  /* float: right; */
+  margin: auto;
+  margin-top: 50px;
+  /* margin: 20px; */
+  /* padding: 30px; */
+  background: blanchedalmond;
+  z-index: 10;
+  position: relative;
+  top: 0px; left: 0px;
+  display: inline-block;
+  background: #ffebcd3d;
+  /* overflow-y: scroll; */
+}
+.profilePic{
+  border-radius: 8px;
+}
 .myCards {
    z-index: 1000;
    height: 100%;

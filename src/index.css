@@ -32,7 +32,7 @@ code {
   /* border: 1px solid black; */
 
   height: 96%;
-  width: 30%;
+  width: 65%;
   top: 50px;
   float: left;
   margin: auto;
@@ -51,7 +51,7 @@ code {
   /* border: 1px solid black; */
 
   height: 96%;
-  width: 65%;
+  width: 30%;
   top: 50px;
   /* float: right; */
   margin: auto;
@@ -59,15 +59,19 @@ code {
   /* margin: 20px; */
   /* padding: 30px; */
   background: blanchedalmond;
-  z-index: 10;
+  z-index: 1100;
   position: relative;
   top: 0px; left: 0px;
   display: inline-block;
-  background: #ffebcd3d;
+  background: #ffebcd11;
   /* overflow-y: scroll; */
 }
 .profilePic{
-  border-radius: 8px;
+  border-radius: 20px;
+  width: 100%;
+  /* border-radius: 50%; */
+  position: relative;
+  float: right;
 }
 .myCards {
    z-index: 1000;
@@ -82,12 +86,18 @@ code {
 img{
   height: 350px;
   width: 50%;
+  border-radius: 20px;
+
   /* width: 200px;
   margin: 10px; */
-  opacity: .7;
+  /* opacity: .7; */
 }
 /* .card-img {
 } */
+
+p{
+  margin-bottom: 0px;
+}
 
 #titles{
   font-family: 'Didact Gothic', sans-serif;

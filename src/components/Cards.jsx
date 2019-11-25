@@ -9,7 +9,7 @@ const Cards = (props) => {
       <ul>
           <li>
           <Card >
-        <CardImg width="100%" src="https://cdn.shopify.com/s/files/1/1721/2115/products/RickandMorty_1024x1024.jpg?v=1539628583" alt="Card image cap" />
+        <CardImg width="50%" src="https://cdn.shopify.com/s/files/1/1721/2115/products/RickandMorty_1024x1024.jpg?v=1539628583" alt="Card image cap" />
         <CardImgOverlay>
           <p id="titles">Rick's World API</p>
           
@@ -21,7 +21,7 @@ const Cards = (props) => {
 
           <li>
           <Card >
-        <CardImg width="100%" src="my-portfolio-website/images/UNADJUSTEDNONRAW_thumb_23e8.jpg" alt="Card image cap" />
+        <CardImg width="100%" src="https://raw.githubusercontent.com/qdh6159/qdh6159.github.io/master/images/UNADJUSTEDNONRAW_thumb_23e8.jpg" alt="Card image cap" />
         <CardImgOverlay>
         <p id="titles">Resume</p>
           

@@ -16,7 +16,7 @@ code {
 .mainBox {
   /* border: 1px solid black; */
 
-  height: 1054px;
+  height: 1100px;
   width: 100%;
   margin: auto;
   background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
@@ -32,12 +32,13 @@ code {
   /* border: 1px solid black; */
 
   height: 96%;
-  width: 45%;
+  width: 40%;
   top: 50px;
-  float: left;
+  float: right;
   margin: auto;
+  margin-right: 50px;
   margin-top: 50px;
-  margin-left: 50px;
+  margin-right: 7%;
   /* margin: 20px; */
   /* padding: 30px; */
   background: blanchedalmond;
@@ -51,19 +52,21 @@ code {
 .cardTable2 {
   /* border: 1px solid black; */
 
-  height: 96%;
-  width: 39%;
+  height: 100%;
+  width: 40%;
   top: 50px;
+  float: left;
   /* float: right; */
   margin: auto;
   margin-top: 50px;
+  margin-left: 7%;
   /* margin: 20px; */
   /* padding: 30px; */
   background: blanchedalmond;
   z-index: 1100;
   position: relative;
   top: 0px; left: 0px;
-  display: inline-block;
+  /* display: inline-block; */
   background: #ffebcd11;
   /* overflow-y: scroll; */
 }
@@ -71,7 +74,9 @@ code {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 75%;
+  margin-top: 30px;
+  width: 60%;
+  height: 35%;
 
   border-radius: 20px;
   /* width: 100%; */
@@ -135,10 +140,11 @@ h1{
 h3{
   margin-right: 60px;
   margin-left: 60px;
+  color: whitesmoke;
 }
 h4{
 color: whitesmoke;
-text-decoration-line: underline;
+/* text-decoration-line: underline; */
 }
 
 #contact{

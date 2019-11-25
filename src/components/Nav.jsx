@@ -16,7 +16,7 @@ const MyNav = (props) => {
 
   return (
     <div class="myNav">
-      <Navbar color="light" light class="myNav">
+      <Navbar color="dark" light class="myNav">
         <NavbarToggler onClick={toggleNavbar} className="mr-2" />
         {/* <NavbarBrand href="/" className="mr-auto">Q U I N C Y  H I C K S</NavbarBrand> */}
         <h3>Portfolio Site | Quincy Hicks</h3>

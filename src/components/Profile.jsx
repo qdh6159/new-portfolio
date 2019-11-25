@@ -5,6 +5,8 @@ function CardTable2() {
     return (
       <div class="cardTable2">
         <img class="profilePic" src="https://raw.githubusercontent.com/qdh6159/new-portfolio/master/images/SphWTuiPR9C5NBvskNjSaQ_thumb_23ea.jpg" alt="Paris" width="300" height="300"></img>
+        
+        <h4>Quincy Hicks | Full Stack Software Engineer | Musician</h4>
         <p>qdh6159@gmail.com</p>
         <p>+1 (318)-272-4790</p>
 

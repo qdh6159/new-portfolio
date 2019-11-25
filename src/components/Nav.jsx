@@ -17,6 +17,7 @@ const MyNav = (props) => {
   return (
     <div >
       <nav class="myNav">
+      <div class="myLogo"></div>
           <div class="myName">
             <h2 class="navName">Quincy Hicks</h2>
             <p>Frontend Developer</p>

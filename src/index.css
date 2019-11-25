@@ -237,10 +237,20 @@ button {
 .myName{
   border: 2px solid black;
   height: 100%;
-  width: 250px;
-  margin-left: 8%;
+  width: 270px;
+  margin-left: 0%;
+  text-align: left;
 
 }
 .navName{
   color: whitesmoke;
+  display: inline;
+}
+.myLogo{
+  border: 2px solid black;
+  height: 100%;
+  width: 40px;
+  margin-left: 2%;
+  margin-right: 5px;
+  float: left;
 }

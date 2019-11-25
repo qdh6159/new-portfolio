@@ -19,7 +19,7 @@ const MyNav = (props) => {
       <Navbar color="light" light class="myNav">
         <NavbarToggler onClick={toggleNavbar} className="mr-2" />
         {/* <NavbarBrand href="/" className="mr-auto">Q U I N C Y  H I C K S</NavbarBrand> */}
-        <h3>Quincy Hicks</h3>
+        <h3>Portfolio Site | Quincy Hicks</h3>
         <p id="contact"> CONTACT</p>
 
         <Collapse isOpen={!collapsed} navbar>

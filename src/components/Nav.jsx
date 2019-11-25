@@ -18,7 +18,7 @@ const MyNav = (props) => {
     <div >
       <nav class="myNav">
       <div class="myLogo">
-        <img src="" alt="Card image cap" class="meMoji"></img>
+        <img src="https://raw.githubusercontent.com/qdh6159/new-portfolio/master/images/IMG_0143.jpeg" alt="Card image cap" class="meMoji"></img>
 
       </div>
           <div class="myName">

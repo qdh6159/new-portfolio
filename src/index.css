@@ -237,7 +237,7 @@ button {
 .myName{
   border: 2px solid black;
   height: 100%;
-  width: 270px;
+  width: 300px;
   margin-left: 0%;
   text-align: left;
 
@@ -256,5 +256,8 @@ button {
 }
 
 .meMoji{
-  
+  border-radius: 50%;
+  height: 100%;
+  width: 100%;
+  opacity: .7;
 }

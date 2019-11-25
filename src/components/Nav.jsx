@@ -15,8 +15,8 @@ const MyNav = (props) => {
   const toggleNavbar = () => setCollapsed(!collapsed);
 
   return (
-    <div>
-      <Navbar color="light" light>
+    <div class="myNav">
+      <Navbar color="light" light class="myNav">
         <NavbarToggler onClick={toggleNavbar} className="mr-2" />
         {/* <NavbarBrand href="/" className="mr-auto">Q U I N C Y  H I C K S</NavbarBrand> */}
         <h3>Quincy Hicks</h3>

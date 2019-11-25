@@ -16,7 +16,7 @@ code {
 .mainBox {
   /* border: 1px solid black; */
 
-  height: 950px;
+  height: 1054px;
   width: 100%;
   margin: auto;
   background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
@@ -32,9 +32,11 @@ code {
   /* border: 1px solid black; */
 
   height: 96%;
-  width: 96%;
+  width: 30%;
+  top: 50px;
+  float: left;
   margin: auto;
-  /* margin-top: 50px; */
+  margin-top: 50px;
   /* margin: 20px; */
   /* padding: 30px; */
   background: blanchedalmond;
@@ -49,9 +51,11 @@ code {
 .myCards {
    z-index: 1000;
    height: 100%;
-   width: 100%;
+   width: 99%;
    border: 1px solid rgba(255, 255, 0, 0.185);
-   position: relative;
+   /* position: absolute; */
+   float: right;
+
 
 }
 img{
@@ -101,11 +105,14 @@ ul{
   list-style-type: none;
   padding: 5%;
   padding-top: 30px;
+  /* float: right; */
+
 
 }
 
 li{
   margin-bottom: 23px;
+
 
 }
 
@@ -120,4 +127,12 @@ button {
   /* text-shadow: brown;; */
   height: 30px;
   /* background-color: turquoise; */
+}
+
+.myNav {
+  position: fixed;
+  top: 0; 
+  z-index: 500;
+  width: 100%;
+  opacity: .7;
 }

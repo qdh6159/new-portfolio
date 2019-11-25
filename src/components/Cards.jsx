@@ -13,7 +13,7 @@ const Cards = (props) => {
         <CardImgOverlay>
           <p id="titles">Rick's World API</p>
           
-          <Button theme="primary" size="lg"  block squared><span class="view">View</span></Button>
+          <Button theme="primary" size="md"  block squared><span class="view">View</span></Button>
 
         </CardImgOverlay>
       </Card>
@@ -25,33 +25,24 @@ const Cards = (props) => {
         <CardImgOverlay>
         <p id="titles">Resume</p>
           
-          <Button theme="primary" size="lg"  block squared><span class="view">View</span></Button>
+          <Button theme="primary" size="md"  block squared><span class="view">View</span></Button>
         </CardImgOverlay>
       </Card>
           </li>
 
           <li>
           <Card >
-        <CardImg width="100%" src="" alt="Card image cap" />
+        <CardImg width="100%" src="https://raw.githubusercontent.com/qdh6159/new-portfolio/master/images/Image%2011-25-19%20at%208.19%20AM.jpg" alt="Card image cap" />
         <CardImgOverlay>
         <p id="titles">ClientVault App</p>
           
-          <Button theme="primary" size="lg"  block squared><span class="view">View</span></Button>
+          <Button theme="primary" size="md"  block squared><span class="view">View</span></Button>
         </CardImgOverlay>
       </Card>
           </li>
 
 
-          <li>
-          <Card >
-        <CardImg width="100%" src="" alt="Card image cap" />
-        <CardImgOverlay>
-        <p id="titles">About</p>
           
-          <Button theme="primary" size="lg"  block squared><span class="view">View</span></Button>
-        </CardImgOverlay>
-      </Card>
-          </li>
       </ul>
     </div>
   );

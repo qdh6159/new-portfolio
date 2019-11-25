@@ -5,6 +5,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  width: 100%;
+  /* height: 80%; */
 }
 
 code {
@@ -15,12 +17,11 @@ code {
 
 .mainBox {
   /* border: 1px solid black; */
-
-  height: 1100px;
+  display: block;
+  height: 800px;
   width: 100%;
   margin: auto;
-  background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
-  opacity: .7;
+  background-color: #0098bf;
   padding-top: 35px;
   /* margin-top: 15px; */
   position: relative;
@@ -30,42 +31,48 @@ code {
 
 .cardTable {
   /* border: 1px solid black; */
-
+/* 
   height: 96%;
-  width: 40%;
+  width: 40%; */
   top: 50px;
-  float: right;
+  /* width: 300px; */
+  /* display: inline; */
   margin: auto;
-  margin-right: 50px;
-  margin-top: 50px;
-  margin-right: 7%;
+  /* float: right; */
+  /* margin: auto; */
+  /* margin-right: 50px; */
+  /* margin-top: 50px; */
+  /* margin-right: 7%; */
   /* margin: 20px; */
   /* padding: 30px; */
   background: blanchedalmond;
   z-index: 10;
   position: relative;
-  top: 0px; left: 0px;
-  display: flex;
+  /* top: 0px; left: 0px; */
+  /* display: inline-flex; */
   background: #ffebcd2b;
   overflow-y: scroll;
 }
 .cardTable2 {
   /* border: 1px solid black; */
-
-  height: 100%;
-  width: 40%;
+  display: inline;
+  /* width: 100%; */
+  /* height: 100%;
+  width: 700px; */
   top: 50px;
-  float: left;
+  /* float: left; */
   /* float: right; */
-  margin: auto;
-  margin-top: 50px;
-  margin-left: 7%;
+  /* margin: auto; */
+  /* margin-top: 50px; */
+  margin-left: 3%;
   /* margin: 20px; */
   /* padding: 30px; */
   background: blanchedalmond;
   z-index: 1100;
   position: relative;
-  top: 0px; left: 0px;
+  top: 0px; 
+  /* left: 0px;  */
+  /* right: 0px; */
   /* display: inline-block; */
   background: #ffebcd11;
   /* overflow-y: scroll; */
@@ -75,8 +82,8 @@ code {
   margin-left: auto;
   margin-right: auto;
   margin-top: 30px;
-  width: 60%;
-  height: 35%;
+  width: 250px;
+  height: 300px;
 
   border-radius: 20px;
   /* width: 100%; */
@@ -159,6 +166,7 @@ ul{
   list-style-type: none;
   padding: 5%;
   padding-top: 30px;
+  width: 650px;
   /* float: right; */
 
 
@@ -166,6 +174,7 @@ ul{
 
 li{
   margin-bottom: 23px;
+  width: 100%;
   /* margin-right: 100px;
   margin-left: 100px; */
 
@@ -188,9 +197,50 @@ button {
 .myNav {
   position: fixed;
   top: 0; 
+  height: 80px;
   z-index: 500;
   width: 100%;
-  opacity: .7;
+  /* opacity: .9; */
   justify-content: none;
+  background-color: #0000002b;
+  /* border: 1px solid black; */
+}
 
+.projectBox{
+  border: 2px solid black;
+  width: 100%;
+  height: 800px;
+  display: block;
+}
+
+.intro{
+  border: 2px solid black;
+  width: 70%;
+  height: 40%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 200px;
+  /* margin-bottom: 150px; */
+
+}
+
+.introOne{
+  color: whitesmoke;
+
+}
+
+.introThree{
+  color: whitesmoke;
+
+}
+.myName{
+  border: 2px solid black;
+  height: 100%;
+  width: 250px;
+  margin-left: 8%;
+
+}
+.navName{
+  color: whitesmoke;
 }

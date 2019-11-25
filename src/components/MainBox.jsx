@@ -6,9 +6,13 @@ import CardTable2 from './Profile'
 function MainBox() {
     return (
       <div class="mainBox">
-        {/* <h1> Main Box</h1> */}
-        <CardTable />
-        <CardTable2 />
+          <div class="intro">
+              <h1><span class="introOne">Frontend Software Engineer</span></h1>
+              <p><span class="introTwo">I’m coding to change the world in a positive way.</span></p>
+              <p><span class="introThree">View Portfolio</span></p>
+          </div>
+       
+
       </div>
     );
   }

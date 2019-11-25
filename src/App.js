@@ -10,7 +10,8 @@ function App() {
       {/* <MyNav /> */}
       <MyNav />
       <MainBox />
-      <h1>Hello</h1>
+      <section class="projectBox"></section>
+      {/* <h1>Hello</h1> */}
     </div>
   );
 }

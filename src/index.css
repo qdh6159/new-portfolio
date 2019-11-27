@@ -21,7 +21,7 @@ code {
   height: 800px;
   width: 100%;
   margin: auto;
-  background-color: #0098bf;
+  background-color: #101e46;
   padding-top: 35px;
   /* margin-top: 15px; */
   position: relative;
@@ -119,7 +119,7 @@ p{
   margin-bottom: 0px;
   font-size: 20px;
   font-weight: 400;
-  color: whitesmoke;
+  color: wheat;
 }
 
 #titles{
@@ -226,12 +226,13 @@ button {
 }
 
 .introOne{
-  color: whitesmoke;
+  color: wheat;
 
 }
 
 .introThree{
-  color: whitesmoke;
+  color: #ff5718;
+  font-weight: 600;
 
 }
 .myName{
@@ -243,7 +244,7 @@ button {
 
 }
 .navName{
-  color: whitesmoke;
+  color: wheat;
   display: inline;
 }
 .myLogo{
@@ -261,3 +262,20 @@ button {
   width: 100%;
   opacity: .7;
 }
+
+.fa-fish {
+  color: #ff5718;;
+}
+
+
+
+html {
+	scroll-behavior: smooth;
+}
+
+@media screen and (prefers-reduced-motion: reduce) {
+	html {
+		scroll-behavior: auto;
+	}
+}
+

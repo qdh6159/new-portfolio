@@ -3,6 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 import MyNav from './components/Nav'
 import MainBox from './components/MainBox'
+// import Question from '../src/components/Icon'
 
 function App() {
   return (
@@ -10,8 +11,10 @@ function App() {
       {/* <MyNav /> */}
       <MyNav />
       <MainBox />
-      <section class="projectBox"></section>
-      {/* <h1>Hello</h1> */}
+      <section  id="bazinga" class="projectBox">
+        {/* <Question/> */}
+      </section>
+
     </div>
   );
 }

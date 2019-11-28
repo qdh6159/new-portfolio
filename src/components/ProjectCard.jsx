@@ -10,7 +10,8 @@ import {
   Button,
   Container,
   Row,
-  Col
+  Col,
+  Badge
 } from "shards-react";
 
 
@@ -24,6 +25,7 @@ export default function ProjectCard() {
                 <CardImg class="clientImg" style={{ maxHeight: "250px" }} src="https://raw.githubusercontent.com/qdh6159/new-portfolio/master/images/Image%2011-25-19%20at%208.19%20AM.jpg" />
                 <CardBody>
                 <CardTitle>Client Vault</CardTitle>
+                <Badge pill>REACT.JS</Badge><Badge pill>MONGODB</Badge><Badge pill>JAVASCRIPT</Badge><Badge pill>EXPRESS</Badge>
                 <p>Lorem ipsum dolor sit amet.</p>
                 </CardBody>
                 <CardFooter style={{ textAlign: "left" }}>
@@ -38,6 +40,7 @@ export default function ProjectCard() {
                 <CardImg style={{ maxHeight: "250px" }} src="https://images-na.ssl-images-amazon.com/images/I/61IL9YgWyrL.jpg" />
                 <CardBody>
                 <CardTitle>Rick's World API</CardTitle>
+                <Badge pill>AJAX</Badge><Badge pill>JAVASCRIPT</Badge>
                 <p>Lorem ipsum dolor sit amet.</p>
                 
                 

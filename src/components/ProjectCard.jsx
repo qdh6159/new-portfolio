@@ -21,16 +21,20 @@ export default function ProjectCard() {
         <Container>
             <Row>
             <Col> 
-            <Card style={{ maxWidth: "700px" }, {width: "350px"}}>
+            <Card  style={{ maxWidth: "700px" }, {width: "350px"}}>
                 <CardImg class="clientImg" style={{ maxHeight: "250px" }} src="https://raw.githubusercontent.com/qdh6159/new-portfolio/master/images/Image%2011-25-19%20at%208.19%20AM.jpg" />
                 <CardBody>
                 <CardTitle>Client Vault</CardTitle>
-                <Badge pill>REACT.JS</Badge><Badge pill>MONGODB</Badge><Badge pill>JAVASCRIPT</Badge><Badge pill>EXPRESS</Badge>
+                <Badge pill>REACT</Badge><Badge pill>MONGODB</Badge><Badge pill>JAVASCRIPT</Badge><Badge pill>EXPRESS</Badge><Badge pill>REACT HOOKS</Badge>
                 <p>Lorem ipsum dolor sit amet.</p>
                 </CardBody>
                 <CardFooter style={{ textAlign: "left" }}>
+                    <a href="https://master.d3lwsy1e3yia6j.amplifyapp.com/">
                     <Button outline size="sm" style={{ marginRight: "10px" }}>Open &rarr;</Button>
+                    </a>
+                    <a href="https://github.com/qdh6159/ClientVault">
                     <Button outline size="sm" theme="secondary">GitHub</Button>
+                    </a>
                 </CardFooter>
             </Card>
             </Col> 
@@ -40,7 +44,7 @@ export default function ProjectCard() {
                 <CardImg style={{ maxHeight: "250px" }} src="https://images-na.ssl-images-amazon.com/images/I/61IL9YgWyrL.jpg" />
                 <CardBody>
                 <CardTitle>Rick's World API</CardTitle>
-                <Badge pill>AJAX</Badge><Badge pill>JAVASCRIPT</Badge>
+                <Badge pill>AJAX</Badge><Badge pill>JAVASCRIPT</Badge><br></br>
                 <p>Lorem ipsum dolor sit amet.</p>
                 
                 

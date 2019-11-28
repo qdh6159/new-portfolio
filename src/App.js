@@ -4,7 +4,7 @@ import './App.css';
 import MyNav from './components/Nav'
 import MainBox from './components/MainBox'
 import ProjectCard from './components/ProjectCard'
-// import Question from '../src/components/Icon'
+import Question from '../src/components/Icon'
 
 function App() {
   return (
@@ -19,7 +19,10 @@ function App() {
             
        
         </div>
+        
       </section>
+      <h6>About</h6>
+      <Question/>
 
     </div>
   );

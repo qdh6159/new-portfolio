@@ -3,6 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 import MyNav from './components/Nav'
 import MainBox from './components/MainBox'
+import ProjectCard from './components/ProjectCard'
 // import Question from '../src/components/Icon'
 
 function App() {
@@ -12,7 +13,12 @@ function App() {
       <MyNav />
       <MainBox />
       <section  id="bazinga" class="projectBox">
-        {/* <Question/> */}
+        <div class="innerProjectBox">
+          
+            <ProjectCard  />
+            
+       
+        </div>
       </section>
 
     </div>

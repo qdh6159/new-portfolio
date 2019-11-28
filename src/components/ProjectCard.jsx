@@ -21,14 +21,14 @@ export default function ProjectCard() {
             <Row>
             <Col> 
             <Card style={{ maxWidth: "700px" }, {width: "350px"}}>
-                <CardImg style={{ maxHeight: "250px" }} src="https://raw.githubusercontent.com/qdh6159/new-portfolio/master/images/Image%2011-25-19%20at%208.19%20AM.jpg" />
+                <CardImg class="clientImg" style={{ maxHeight: "250px" }} src="https://raw.githubusercontent.com/qdh6159/new-portfolio/master/images/Image%2011-25-19%20at%208.19%20AM.jpg" />
                 <CardBody>
-                <CardTitle>Lorem Ipsum</CardTitle>
+                <CardTitle>Client Vault</CardTitle>
                 <p>Lorem ipsum dolor sit amet.</p>
                 </CardBody>
                 <CardFooter style={{ textAlign: "left" }}>
-                    <Button outline size="sm" style={{ marginRight: "10px" }}>Read more &rarr;</Button>
-                    <Button outline size="sm" theme="secondary">Secondary</Button>
+                    <Button outline size="sm" style={{ marginRight: "10px" }}>Open &rarr;</Button>
+                    <Button outline size="sm" theme="secondary">GitHub</Button>
                 </CardFooter>
             </Card>
             </Col> 
@@ -37,30 +37,30 @@ export default function ProjectCard() {
             <Card style={{ maxWidth: "700px" }, {width: "350px"}}>
                 <CardImg style={{ maxHeight: "250px" }} src="https://images-na.ssl-images-amazon.com/images/I/61IL9YgWyrL.jpg" />
                 <CardBody>
-                <CardTitle>Lorem Ipsum</CardTitle>
+                <CardTitle>Rick's World API</CardTitle>
                 <p>Lorem ipsum dolor sit amet.</p>
                 
                 
                 </CardBody>
 
                 <CardFooter style={{ textAlign: "left" }}>
-                    <Button outline size="sm" style={{ marginRight: "10px" }}>Read more &rarr;</Button>
-                    <Button outline size="sm" theme="secondary">Secondary</Button>
+                    <Button outline size="sm" style={{ marginRight: "10px" }}>Open &rarr;</Button>
+                    <Button outline size="sm" theme="secondary">GitHub</Button>
                 </CardFooter>
             </Card>
             </Col> 
 
             <Col>
             <Card style={{ maxWidth: "700px" }, {width: "350px"}}>
-                <CardImg style={{ maxHeight: "250px" }} src="https://raw.githubusercontent.com/qdh6159/new-portfolio/master/images/Image%2011-25-19%20at%208.19%20AM.jpg" />
+                <CardImg style={{ maxHeight: "250px" }} src="https://resumegenius.com/wp-content/uploads/2017/10/Software-Engineer-Cover-Letter-Example-Template.png" />
                 <CardBody>
-                <CardTitle>Lorem Ipsum</CardTitle>
+                <CardTitle>Resume</CardTitle>
                 <p>Lorem ipsum dolor sit amet.</p>
                 
                 </CardBody>
                 <CardFooter style={{ textAlign: "left" }}>
                     <Button outline size="sm" style={{ marginRight: "10px" }}>Read more &rarr;</Button>
-                    <Button outline size="sm" theme="secondary">Secondary</Button>
+                    <Button outline size="sm" theme="secondary">Download</Button>
                 </CardFooter>
                 
             </Card>

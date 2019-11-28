@@ -10,7 +10,7 @@ function MainBox() {
       <div class="mainBox">
           <div class="intro">
             <h1><span class="introOne">Frontend Software Developer</span></h1>
-            <p><span class="introTwo">I’m coding to change the world in a positive way.</span></p>
+            <p><span class="introTwo">Coding to change the world in a positive way.</span></p>
             
             <a class="introThree" href="#bazinga">
                 <span>View Portfolio</span>

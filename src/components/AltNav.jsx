@@ -18,11 +18,11 @@ const AltNav = (props) => {
   const [isOpen, setIsOpen] = useState(false);
 
   const toggle = () => setIsOpen(!isOpen);
-
+  
   return (
     <div>
       <Navbar color="light" light  expand="md">
-        <NavbarBrand href="/">Quincy Hicks<span class="full">Full Stack Engineer</span></NavbarBrand>
+        <NavbarBrand href="/">Quincy Hicks<span class="full">⬆ Full Stack Engineer ⬇</span></NavbarBrand>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
           <Nav className="mr-auto" navbar>

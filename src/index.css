@@ -194,17 +194,12 @@ button {
   /* background-color: turquoise; */
 }
 
-.myNav {
-  position: fixed;
-  top: 0; 
-  height: 80px;
-  z-index: 500;
-  width: 100%;
-  /* opacity: .9; */
-  justify-content: none;
-  background-color: #0000002b;
-  /* border: 1px solid black; */
+.mr-auto{
+  width: 300px;
 }
+/* .collapse{
+  height: 100px;
+} */
 
 .projectBox{
   /* border: 2px solid black; */
@@ -303,6 +298,18 @@ html {
 }
 
 
-/* .clientImg{
-  left: -110px;
-} */
+
+.mr-auto{
+  height: 100px;
+  width: 200px;
+  /* border: 4px solid black; */
+}
+.full{
+  font-size: 10px;
+  display: block;
+}
+@media only screen and (max-width: 767px) {
+  .mr-auto {
+    height: 200px;
+  }
+}

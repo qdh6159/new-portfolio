@@ -23,7 +23,7 @@ const MyNav = (props) => {
       </div>
           <div class="myName">
             <h2 class="navName">Quincy Hicks</h2>
-            <p>Frontend Developer</p>
+            <p>Full Stack Engineer</p>
           </div>
       </nav>
     </div>

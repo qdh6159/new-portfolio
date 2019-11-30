@@ -25,7 +25,7 @@ export default function ProjectCard() {
                 <CardImg class="clientImg" style={{ maxHeight: "250px" }} src="https://raw.githubusercontent.com/qdh6159/new-portfolio/master/images/Image%2011-25-19%20at%208.19%20AM.jpg" />
                 <CardBody>
                 <CardTitle>Client Vault</CardTitle>
-                <Badge pill>REACT</Badge><Badge pill>MONGODB</Badge><Badge pill>JAVASCRIPT</Badge><Badge pill>EXPRESS</Badge><Badge pill>REACT HOOKS</Badge>
+                <Badge pill>REACT</Badge><Badge pill>EXPRESS</Badge><Badge pill>HOOKS</Badge>
                 <p>Lorem ipsum dolor sit amet.</p>
                 </CardBody>
                 <CardFooter style={{ textAlign: "left" }}>

@@ -10,14 +10,14 @@ function MainBox() {
       <div class="mainBox">
           <div class="intro">
             <h1><span class="introOne">Full Stack Software Engineer</span></h1>
-            <p><span class="introTwo">Coding to change the world in a positive way.</span></p>
+            <p><span class="introTwo">Coding to change the world in a positive way. 😄</span><span></span></p>
             
             <a class="introThree" href="#bazinga">
                 <span>View Portfolio</span>
                 <Question/>
             </a>
             
-
+            
             
           </div>
        

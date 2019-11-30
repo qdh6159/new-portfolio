@@ -22,12 +22,12 @@ const AltNav = (props) => {
   return (
     <div>
       <Navbar color="light" light  expand="md">
-        <NavbarBrand href="/">Quincy Hicks <span class="full">Full Stack Engineer</span></NavbarBrand>
+        <NavbarBrand href="/">Quincy Hicks<span class="full">Full Stack Engineer</span></NavbarBrand>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
           <Nav className="mr-auto" navbar>
             <NavItem>
-              <NavLink href="/components/">Projects</NavLink>
+              <NavLink href="#bazinga">Projects</NavLink>
             </NavItem>
             <NavItem>
               <NavLink href="https://github.com/reactstrap/reactstrap">About</NavLink>

@@ -3,7 +3,7 @@ import { Button } from 'reactstrap';
 import CardTable from './CardTable'
 import CardTable2 from './Profile'
 import Question from './Icon'
-
+import Spotify from './Spotify'
 
 function MainBox() {
     return (
@@ -15,6 +15,7 @@ function MainBox() {
             <a class="introThree" href="#bazinga">
                 <span>View Portfolio</span>
                 <Question/>
+                {/* <Spotify/> */}
             </a>
             
             

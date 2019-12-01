@@ -6,6 +6,7 @@ import MainBox from './components/MainBox'
 import ProjectCard from './components/ProjectCard'
 import Question from '../src/components/Icon'
 import AltNav from './components/AltNav'
+import About from './components/About'
 
 function App() {
   return (
@@ -22,8 +23,12 @@ function App() {
         </div>
         
       </section>
-      <h6>About</h6>
-      <Question/>
+      <h6></h6>
+      
+      <section class="box2">
+        <div class="about"><About /></div>
+        
+      </section>
 
     </div>
   );

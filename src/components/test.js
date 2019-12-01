@@ -27,11 +27,11 @@ const About = () => {
     <Jumbotron />
 
       <Jumbotron>
-      <Media body>
-      <h1><span class="aboutOne">Work & Skill</span></h1>
+      
+      <span class="aboutOne">Work & Skill</span>
         Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
       
-    </Media>
+   
 
     <ListGroup>
       <ListGroupItem><Badge pill  color="primary" size="xl">Javascript </Badge></ListGroupItem>

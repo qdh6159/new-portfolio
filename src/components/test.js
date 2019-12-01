@@ -24,7 +24,7 @@ const About = () => {
       <ListGroupItem>Hobby: Guitar & anything else involving music</ListGroupItem>
     </ListGroup>
 
-      </Jumbotron>
+    <Jumbotron />
 
       <Jumbotron>
       <Media body>
@@ -41,10 +41,10 @@ const About = () => {
       <ListGroupItem><Badge pill color="primary" size="xl">MongoDB</Badge></ListGroupItem>
       <ListGroupItem><Badge pill color="primary" size="xl">Ruby | Rails  </Badge></ListGroupItem>
     </ListGroup>
-      </Jumbotron>
+    </Jumbotron>
 
-      <Jumbotron>
-      <Media body>
+    <Jumbotron />
+    <Media body>
       <h1><span class="aboutOne">Education</span></h1>
        
       
@@ -56,10 +56,12 @@ const About = () => {
       <ListGroupItem>Glenbrook Highschool | Minden, LA | <Badge pill color="success" size="xl">2012</Badge></ListGroupItem>
      
     </ListGroup>
+    
       </Jumbotron>
+      
 
       <Jumbotron id="bazinga3">
-      <h1><span class="aboutOne">Contact</span></h1>
+        <h1><span class="aboutOne">Contact</span></h1>
         <ListGroup>
       <ListGroupItem>Phone: +1(318)272-4790</ListGroupItem>
       <ListGroupItem>Email: qdh6159@gmail.com</ListGroupItem>
@@ -71,5 +73,3 @@ const About = () => {
 };
 
 export default About;
-
-

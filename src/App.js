@@ -29,6 +29,7 @@ function App() {
         <div class="about"><About /></div>
         
       </section>
+      <footer></footer>
 
     </div>
   );

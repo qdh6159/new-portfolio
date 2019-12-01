@@ -30,10 +30,10 @@ const AltNav = (props) => {
               <NavLink href="#bazinga">Projects</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="https://github.com/reactstrap/reactstrap">About</NavLink>
+              <NavLink href="#bazinga2">About</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="https://github.com/reactstrap/reactstrap">Contact</NavLink>
+              <NavLink href="#bazinga3">Contact</NavLink>
             </NavItem>
             
           </Nav>

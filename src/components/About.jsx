@@ -1,6 +1,6 @@
 import React from 'react';
-import { Media, Jumbotron, Badge} from 'reactstrap';
-import { ListGroup, ListGroupItem } from "shards-react";
+import { Media, Jumbotron, Badge,ListGroup, ListGroupItem} from 'reactstrap';
+// import { ListGroup, ListGroupItem } from "shards-react";
 
 const About = () => {
   return (
@@ -22,6 +22,7 @@ const About = () => {
       <ListGroupItem><span class="bold">Raised:</span> Minden, LA</ListGroupItem>
       <ListGroupItem><span class="bold">Favorite Food: </span>Pizza</ListGroupItem>
       <ListGroupItem><span class="bold">Hobby:</span> Guitar & anything else involving music</ListGroupItem>
+      
     </ListGroup>
 
       </Jumbotron>
@@ -34,12 +35,12 @@ const About = () => {
     </Media>
 
     <ListGroup>
-      <ListGroupItem><Badge pill  color="primary" size="xl">Javascript </Badge></ListGroupItem>
-      <ListGroupItem><Badge pill color="primary" size="xl">React</Badge></ListGroupItem>
-      <ListGroupItem><Badge pill color="primary" size="xl">CSS</Badge></ListGroupItem>
-      <ListGroupItem><Badge pill color="primary" size="xl">Express</Badge></ListGroupItem>
-      <ListGroupItem><Badge pill color="primary" size="xl">MongoDB</Badge></ListGroupItem>
-      <ListGroupItem><Badge pill color="primary" size="xl">Ruby | Rails  </Badge></ListGroupItem>
+      <ListGroupItem><Badge   color="primary" size="xl">Javascript </Badge> ✅</ListGroupItem>
+      <ListGroupItem><Badge  color="primary" size="xl">React</Badge> ✅</ListGroupItem>
+      <ListGroupItem><Badge  color="primary" size="xl">CSS</Badge> ✅</ListGroupItem>
+      <ListGroupItem><Badge  color="primary" size="xl">Express</Badge> ✅</ListGroupItem>
+      <ListGroupItem><Badge  color="primary" size="xl">MongoDB</Badge> ✅</ListGroupItem>
+      <ListGroupItem><Badge  color="primary" size="xl">Ruby | Rails  </Badge> ✅</ListGroupItem>
     </ListGroup>
       </Jumbotron>
 
@@ -61,9 +62,10 @@ const About = () => {
       <Jumbotron id="bazinga3">
       <h1><span class="aboutOne">Contact</span></h1>
         <ListGroup>
-      <ListGroupItem>Phone: +1(318)272-4790</ListGroupItem>
-      <ListGroupItem>Email: qdh6159@gmail.com</ListGroupItem>
-      
+      <ListGroupItem action><span class="bold">Phone:</span> +1(318)272-4790</ListGroupItem>
+      <ListGroupItem action> <span class="bold">Email:</span> qdh6159@gmail.com</ListGroupItem>
+      <ListGroupItem action tag="a" href="https://www.linkedin.com/in/quincy-hicks-308397b5/"><span class="bold">LinkedIn:</span> www.linkedin.com/in/quincy-hicks-308397b5</ListGroupItem>
+      <ListGroupItem action tag="a" href="https://github.com/qdh6159"><span class="bold">GitHub:</span> github.com/qdh6159</ListGroupItem>
     </ListGroup>
       </Jumbotron>
     </div>

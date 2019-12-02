@@ -234,7 +234,9 @@ button {
   /* margin-bottom: 150px; */
 
 }
-
+.introTwo{
+  font-size: 16px;
+}
 .introOne{
   color: white;
 
@@ -399,6 +401,11 @@ img.media-object{
   margin-top: 34px;
   margin-bottom: 2%;
   width: 30%;
+}
+
+
+.bold{
+  font-weight: bold;
 }
 @media only screen and (max-width: 1200px) {
   .mr-auto {

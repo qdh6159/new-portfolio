@@ -17,11 +17,11 @@ const About = () => {
     </Media>
 
     <ListGroup>
-      <ListGroupItem>Age:25</ListGroupItem>
-      <ListGroupItem>Born: Shreveport, LA</ListGroupItem>
-      <ListGroupItem>Raised: Minden, LA</ListGroupItem>
-      <ListGroupItem>Favorite Food: Pizza</ListGroupItem>
-      <ListGroupItem>Hobby: Guitar & anything else involving music</ListGroupItem>
+      <ListGroupItem><span class="bold">Age:</span>25</ListGroupItem>
+      <ListGroupItem><span class="bold">Born:</span> Shreveport, LA</ListGroupItem>
+      <ListGroupItem><span class="bold">Raised:</span> Minden, LA</ListGroupItem>
+      <ListGroupItem><span class="bold">Favorite Food: </span>Pizza</ListGroupItem>
+      <ListGroupItem><span class="bold">Hobby:</span> Guitar & anything else involving music</ListGroupItem>
     </ListGroup>
 
       </Jumbotron>
@@ -51,9 +51,9 @@ const About = () => {
     </Media>
 
     <ListGroup>
-      <ListGroupItem>General Assembly | Software Engineering Immersive | Lafayette, LA | <Badge pill color="success" size="xl"> 2019</Badge></ListGroupItem>
-      <ListGroupItem>University of Louisiana | Buisiness, Finance (B.S.B.A) | Lafayette, LA | <Badge pill color="success" size="xl">2016</Badge></ListGroupItem>
-      <ListGroupItem>Glenbrook Highschool | Minden, LA | <Badge pill color="success" size="xl">2012</Badge></ListGroupItem>
+      <ListGroupItem><span class="bold">General Assembly</span> | Software Engineering Immersive | Lafayette, LA | <Badge pill color="success" size="xl"> 2019</Badge></ListGroupItem>
+      <ListGroupItem><span class="bold">University of Louisiana</span> | Buisiness, Finance (B.S.B.A) | Lafayette, LA | <Badge pill color="success" size="xl">2016</Badge></ListGroupItem>
+      <ListGroupItem><span class="bold">Glenbrook Highschool</span> | Minden, LA | <Badge pill color="success" size="xl">2012</Badge></ListGroupItem>
      
     </ListGroup>
       </Jumbotron>

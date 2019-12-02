@@ -21,7 +21,7 @@ const AltNav = (props) => {
   
   return (
     <div id="bg-light">
-      <Navbar id="bg-light" color="light" light  expand="md">
+      <Navbar id="bg-light" color="dark" dark  expand="md">
         <NavbarBrand href="/"> 🌴Quincy Hicks<span class="full">⬆ Full Stack Engineer ⬇</span></NavbarBrand>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>

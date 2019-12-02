@@ -19,8 +19,8 @@ const About = () => {
     </Media>
 
     <ListGroup>
-      <ListGroupItem><span class="bold">Age:</span>25</ListGroupItem>
-      <ListGroupItem><span class="bold">Born:</span> Shreveport, LA</ListGroupItem>
+      <ListGroupItem><span class="bold">Age:</span> 25</ListGroupItem>
+      <ListGroupItem><span class="bold">Born:</span> Bossier City, LA</ListGroupItem>
       <ListGroupItem><span class="bold">Raised:</span> Minden, LA</ListGroupItem>
       <ListGroupItem><span class="bold">Home:</span> Lafayette, LA</ListGroupItem>
       <ListGroupItem><span class="bold">Favorite Food: </span>Pizza</ListGroupItem>

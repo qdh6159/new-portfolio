@@ -44,7 +44,7 @@ export default function ProjectCard() {
                 <CardImg style={{ maxHeight: "250px" }} src="https://images-na.ssl-images-amazon.com/images/I/61IL9YgWyrL.jpg" />
                 <CardBody>
                 <CardTitle>Rick's World API</CardTitle>
-                <Badge pill>AJAX</Badge><Badge pill>JAVASCRIPT</Badge><br></br>
+                <Badge pill>AJAX</Badge><Badge pill>JAVASCRIPT</Badge><br></br><Badge pill>JQUERY</Badge><br></br>
                 <p>Lorem ipsum dolor sit amet.</p>
                 
                 

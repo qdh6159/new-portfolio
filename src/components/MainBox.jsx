@@ -15,10 +15,10 @@ function MainBox() {
             <a class="introThree" href="#bazinga">
                 <span>View Portfolio</span>
                 <Question/>
-                {/* <Spotify/> */}
+                
             </a>
             
-            
+            <Spotify/>
             
           </div>
        

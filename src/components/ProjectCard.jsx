@@ -30,7 +30,7 @@ export default function ProjectCard() {
                 </CardBody>
                 <CardFooter style={{ textAlign: "left" }}>
                     <a href="https://master.d3lwsy1e3yia6j.amplifyapp.com/">
-                    <Button outline size="sm" style={{ marginRight: "10px" }}>Open &rarr;</Button>
+                    <Button disabled outline size="sm" style={{ marginRight: "10px" }}>Open &rarr;</Button>
                     </a>
                     <a href="https://github.com/qdh6159/ClientVault">
                     <Button outline size="sm" theme="secondary">GitHub</Button>
@@ -44,15 +44,17 @@ export default function ProjectCard() {
                 <CardImg style={{ maxHeight: "250px" }} src="https://images-na.ssl-images-amazon.com/images/I/61IL9YgWyrL.jpg" />
                 <CardBody>
                 <CardTitle>Rick's World API</CardTitle>
-                <Badge pill>AJAX</Badge><Badge pill>JAVASCRIPT</Badge><br></br><Badge pill>JQUERY</Badge><br></br>
+                <Badge pill>AJAX</Badge><Badge pill>JAVASCRIPT</Badge>
                 <p>Lorem ipsum dolor sit amet.</p>
                 
                 
                 </CardBody>
 
                 <CardFooter style={{ textAlign: "left" }}>
-                    <Button outline size="sm" style={{ marginRight: "10px" }}>Open &rarr;</Button>
+                    <Button disabled outline size="sm" style={{ marginRight: "10px" }}>Open &rarr;</Button>
+                    <a href="https://github.com/qdh6159/ricks-world">
                     <Button outline size="sm" theme="secondary">GitHub</Button>
+                    </a>
                 </CardFooter>
             </Card>
             </Col> 
@@ -61,13 +63,15 @@ export default function ProjectCard() {
             <Card style={{ maxWidth: "700px" }, {width: "350px"}}>
                 <CardImg style={{ maxHeight: "250px" }} src="https://www.pngkey.com/png/detail/472-4723407_download-icon-free-png-resume-symbol.png" />
                 <CardBody>
-                <CardTitle>Resume</CardTitle>
+                <CardTitle>My Resume</CardTitle><br></br>
                 <p>Lorem ipsum dolor sit amet.</p>
                 
                 </CardBody>
                 <CardFooter style={{ textAlign: "left" }}>
-                    <Button outline size="sm" style={{ marginRight: "10px" }}>Read more &rarr;</Button>
-                    <Button outline size="sm" theme="secondary">Download</Button>
+                    
+                <a href="https://drive.google.com/file/d/14FymJJvO2Jmups1ln4OaUPIQJgiJ5xQU/view?usp=sharing">
+                    <Button outline size="sm" theme="secondary">View</Button>
+                    </a>
                 </CardFooter>
                 
             </Card>

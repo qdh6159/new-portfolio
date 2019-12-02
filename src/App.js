@@ -17,7 +17,7 @@ function App() {
       <h5><span class="introAbout">About</span></h5>
             <div class="intro-p-width">
             <p><span class="introAbout2">After parting ways with my job at a local investment firm I completed a six-month, 
-            700-hour software engineering program,providing experience with the latest front- and back-end programming languages, tools, and methodologies including: 
+            700-hour software engineering program, providing experience with the latest front- and back-end programming languages, tools, and methodologies including: 
              Javascript, jQuery, PostgreSQL, MongoDB, NodeJS, ReactJS, Ruby, Ruby on Rails ...
             <br></br>  <a href="#bazinga2" > Read more </a> </span></p>
             </div>

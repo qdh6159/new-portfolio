@@ -254,6 +254,7 @@ button {
 .introAbout{
   color: white;
   padding: 5px;
+  margin-top: 50px;
 
 
 
@@ -357,6 +358,7 @@ html {
 }
 .aboutOne{
   font-size: 50px;
+  
 }
 
 .list{
@@ -429,7 +431,7 @@ img.media-object{
     width: 100%;
   }
   section.black{
-    height: 205px;
+    height: auto;
     width: 100%;
     background-color: black;
     z-index: 10000;

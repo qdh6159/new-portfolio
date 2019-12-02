@@ -12,7 +12,9 @@ const About = () => {
       
       <Media body>
       <h1><span class="aboutOne">About</span></h1>
-        Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+      After parting ways with my job at a local investment firm I completed a six-month, 
+            700-hour software engineering program, providing experience with the latest front- and back-end programming languages, tools, and methodologies including: 
+             Javascript, jQuery, PostgreSQL, MongoDB, NodeJS, ReactJS, Ruby, Ruby on Rails
       </Media>
     </Media>
 

@@ -20,8 +20,8 @@ const AltNav = (props) => {
   const toggle = () => setIsOpen(!isOpen);
   
   return (
-    <div>
-      <Navbar color="light" light  expand="md">
+    <div id="bg-light">
+      <Navbar id="bg-light" color="light" light  expand="md">
         <NavbarBrand href="/"> 🌴Quincy Hicks<span class="full">⬆ Full Stack Engineer ⬇</span></NavbarBrand>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>

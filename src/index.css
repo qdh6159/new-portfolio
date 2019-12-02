@@ -392,7 +392,7 @@ footer{
   background-color: #101e46 ;
 }
 section.black{
-  height: 145px;
+  height: auto;
   width: 100%;
   background-color: black;
   z-index: 10000;
@@ -411,6 +411,13 @@ img.media-object{
 .bold{
   font-weight: bold;
 }
+.bg-light{
+  background-color: black;
+  position: fixed; /* Make it stick/fixed */
+  top: 0; /* Stay on top */
+  width: 100%; /* Full width */
+  transition: top 0.3s; /* Transition effect when sliding down (and up) */
+}
 @media only screen and (max-width: 789px) {
   .mr-auto {
     height: 167px;
@@ -422,7 +429,7 @@ img.media-object{
     width: 100%;
   }
   section.black{
-    height: 170px;
+    height: 205px;
     width: 100%;
     background-color: black;
     z-index: 10000;

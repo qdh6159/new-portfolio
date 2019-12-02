@@ -22,7 +22,7 @@ export default function ProjectCard() {
             <Row>
             <Col> 
             <Card  style={{ maxWidth: "700px" }, {width: "350px"}}>
-                <CardImg class="clientImg" style={{ maxHeight: "250px" }} src="https://raw.githubusercontent.com/qdh6159/new-portfolio/master/images/Image%2011-25-19%20at%208.19%20AM.jpg" />
+                <CardImg class="clientImg" style={{ maxHeight: "250px" }} src="https://bs-uploads.toptal.io/blackfish-uploads/blog/post/seo/og_image_file/og_image/20990/0220-FintechValuation_Dan_Social-ff4a6fd64fa0f8ae876cbca64d2dbbbc.png" />
                 <CardBody>
                 <CardTitle>Client Vault</CardTitle>
                 <Badge pill>REACT</Badge><Badge pill>EXPRESS</Badge><Badge pill>HOOKS</Badge>
@@ -59,7 +59,7 @@ export default function ProjectCard() {
 
             <Col>
             <Card style={{ maxWidth: "700px" }, {width: "350px"}}>
-                <CardImg style={{ maxHeight: "250px" }} src="https://resumegenius.com/wp-content/uploads/2017/10/Software-Engineer-Cover-Letter-Example-Template.png" />
+                <CardImg style={{ maxHeight: "250px" }} src="https://www.pngkey.com/png/detail/472-4723407_download-icon-free-png-resume-symbol.png" />
                 <CardBody>
                 <CardTitle>Resume</CardTitle>
                 <p>Lorem ipsum dolor sit amet.</p>

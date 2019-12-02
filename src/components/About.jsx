@@ -11,7 +11,7 @@ const About = () => {
       <Media>
       
       <Media body>
-      <h1><span class="aboutOne">About Me</span></h1>
+      <h1><span class="aboutOne">About</span></h1>
         Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
       </Media>
     </Media>

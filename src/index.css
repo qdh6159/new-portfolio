@@ -364,15 +364,20 @@ a.nav-link{
 ul.list-group{
   margin-top: 5%;
   text-align: left;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
 }
 li.list-group-item{
   padding-left: 5%;
+  
 }
 
 div.jumbotron{
   padding-left: 10%;
   padding-right: 10%;
   padding-bottom: 10%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin: 4%
 }
 
 footer{
@@ -395,7 +400,7 @@ img.media-object{
   margin-bottom: 2%;
   width: 30%;
 }
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 1200px) {
   .mr-auto {
     height: 200px;
   }

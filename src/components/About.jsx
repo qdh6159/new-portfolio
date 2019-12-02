@@ -7,7 +7,7 @@ const About = () => {
     <div >
       <Jumbotron id="bazinga2" class="aboutDiv">
       
-      <Media object src="https://thumbs.dreamstime.com/z/hacker-21795383.jpg" alt="Generic placeholder image" width="150px"/>
+      <Media object src="https://raw.githubusercontent.com/qdh6159/new-portfolio/master/images/SphWTuiPR9C5NBvskNjSaQ_thumb_23ea.jpg" alt="Generic placeholder image" width="150px"/>
       <Media>
       
       <Media body>

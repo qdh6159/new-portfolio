@@ -13,6 +13,14 @@ function App() {
     <div className="App">
       {/* <MyNav /> */}
       <AltNav />
+      <section class="black">
+      <h5><span class="introAbout">About Me</span></h5>
+            <div class="intro-p-width">
+            <p><span class="introAbout2">Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. 
+            Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla.
+              <a href="#bazinga2" > Read more </a> </span></p>
+            </div>
+      </section>
       <MainBox />
       <section  id="bazinga" class="projectBox">
         <div class="innerProjectBox">

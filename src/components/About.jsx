@@ -20,9 +20,10 @@ const About = () => {
       <ListGroupItem><span class="bold">Age:</span>25</ListGroupItem>
       <ListGroupItem><span class="bold">Born:</span> Shreveport, LA</ListGroupItem>
       <ListGroupItem><span class="bold">Raised:</span> Minden, LA</ListGroupItem>
+      <ListGroupItem><span class="bold">Home:</span> Lafayette, LA</ListGroupItem>
       <ListGroupItem><span class="bold">Favorite Food: </span>Pizza</ListGroupItem>
       <ListGroupItem><span class="bold">Nickname: </span>Stingray</ListGroupItem>
-      <ListGroupItem><span class="bold">Hobby:</span> Guitar & anything else involving music</ListGroupItem>
+      <ListGroupItem><span class="bold">Hobby:</span> Guitar, music production in a variety of genres including R&B/ Hip-Hop, Future-Funk, Blues-Rock & Country</ListGroupItem>
       
     </ListGroup>
 

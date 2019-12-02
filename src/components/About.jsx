@@ -21,6 +21,7 @@ const About = () => {
       <ListGroupItem><span class="bold">Born:</span> Shreveport, LA</ListGroupItem>
       <ListGroupItem><span class="bold">Raised:</span> Minden, LA</ListGroupItem>
       <ListGroupItem><span class="bold">Favorite Food: </span>Pizza</ListGroupItem>
+      <ListGroupItem><span class="bold">Nickname: </span>Stingray</ListGroupItem>
       <ListGroupItem><span class="bold">Hobby:</span> Guitar & anything else involving music</ListGroupItem>
       
     </ListGroup>

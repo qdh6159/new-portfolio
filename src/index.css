@@ -222,6 +222,10 @@ button {
   align-items: flex-start;
 
 }
+.col{
+  margin-bottom: 9%;
+  margin-top: 7%;
+}
 
 .intro{
   /* border: 2px solid black; */
